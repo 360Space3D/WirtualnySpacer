@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-pano-m7-korytarz",
-      "name": "pano m7 korytarz",
+      "id": "0-pano-m2-korytarz",
+      "name": "pano m2 korytarz",
       "levels": [
         {
           "tileSize": 256,
@@ -24,23 +24,29 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 0.2528368862348582,
+        "pitch": -0.017214623832707332,
+        "fov": 1.5616123048243022
       },
       "linkHotspots": [
         {
-          "yaw": -0.034400110031711506,
-          "pitch": 0.03711384457915479,
+          "yaw": 0.5006783738971734,
+          "pitch": 0.054370736299617306,
+          "rotation": 0.7853981633974483,
+          "target": "2-pano-m2-salon"
+        },
+        {
+          "yaw": 1.2583999539316864,
+          "pitch": 0.06265600731386556,
           "rotation": 0,
-          "target": "2-pano-m7-salon"
+          "target": "1-pano-m2-azienka"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-pano-m7-azienka",
-      "name": "pano m7 łazienka",
+      "id": "1-pano-m2-azienka",
+      "name": "pano m2 łazienka",
       "levels": [
         {
           "tileSize": 256,
@@ -62,23 +68,23 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 0.30190947320665273,
+        "pitch": 0.056210581386036296,
+        "fov": 1.5616123048243022
       },
       "linkHotspots": [
         {
-          "yaw": -2.935196266221066,
-          "pitch": 0.06657614129912304,
+          "yaw": -1.2221648398814153,
+          "pitch": 0.11890073113215927,
           "rotation": 0,
-          "target": "2-pano-m7-salon"
+          "target": "0-pano-m2-korytarz"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-pano-m7-salon",
-      "name": "pano m7 salon",
+      "id": "2-pano-m2-salon",
+      "name": "pano m2 salon",
       "levels": [
         {
           "tileSize": 256,
@@ -100,66 +106,16 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -0.9675466233797714,
+        "pitch": 0.19513427474577583,
+        "fov": 1.5616123048243022
       },
       "linkHotspots": [
         {
-          "yaw": -0.72395311938849,
-          "pitch": -0.007497962811916281,
-          "rotation": 0,
-          "target": "1-pano-m7-azienka"
-        },
-        {
-          "yaw": -1.4739047020660578,
-          "pitch": -0.023008790266487722,
-          "rotation": 0,
-          "target": "3-pano-m7-sypialnia"
-        },
-        {
-          "yaw": -0.15479239272466216,
-          "pitch": 0.02774436347645093,
-          "rotation": 0,
-          "target": "0-pano-m7-korytarz"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "3-pano-m7-sypialnia",
-      "name": "pano m7 sypialnia",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2000,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.9217058550530801,
-          "pitch": 0.007649437801845238,
-          "rotation": 0,
-          "target": "2-pano-m7-salon"
+          "yaw": -2.4467491773255787,
+          "pitch": 0.020113642415672928,
+          "rotation": 4.71238898038469,
+          "target": "0-pano-m2-korytarz"
         }
       ],
       "infoHotspots": []
